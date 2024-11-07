@@ -1,0 +1,5 @@
+air temperature								: deg C
+T_target (IRT sensor-detected calibrated temperature)			: deg C
+RH									: %
+NIR and Red bands							: unitless
+ETC									: mm/d
