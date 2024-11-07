@@ -1,7 +1,7 @@
 # Crop Water Stress Index (CWSI) and Actual Evapotranspiration (ETa) Calculation
 This repository contains code and resources related to Crop Water Stress Index (CWSI) and actual evapotranspiration (ETa) modeling for the course `CIVE 519: Irrigation Water Management` using Infra-ref thermometer (IRT) sensor data. The weather and ETc values used here as datasets have been provided. However, real inputs, including Penman-Monteith's ETref calculation, and soil moisture balance can be integrated here (look into `SWB_Irr repo` in author's GitHub) to upgrade it into a more advance model.
 
-<img src="figs/CWSI_ETa.png" height="260"/>
+<img src="figs/CWSI_ETa.png" height="350"/>
 
 ## Features
 `NDVI and Fractional Vegetation Cover Calculation:` Estimates NDVI from NIR and Red bands and calculates scaled NDVI for fractional vegetation cover. <br>
@@ -26,4 +26,4 @@ The following variables are required as daily inputs for the model, and must be 
 `ETc`: mm/d <br>
 
 A sample input data file (.csv format) will look like this-
-<img src="figs/input_structure.PNG" height="260"/>
+<img src="figs/data_format.PNG" height="260"/>
